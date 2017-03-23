@@ -3,7 +3,13 @@
 
 import tweepy, time, sys
 from secret import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET
-#argfile = str(sys.argv[1])
+
+
+filename=open("message.txt",'r')
+message = ""
+for line in filename.readlines():
+    message += line
+filename.close()
 
 try:
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -23,7 +29,7 @@ else:
 #override tweepy.StreamListener to add logic to on_status
 class MyStreamListener(tweepy.StreamListener):
     def on_status(self, status):
-        print(status.text)
+        client.update_status(message + "\n" + status.text)
 
     def on_error(self, status_code):
         if status_code == 420:
