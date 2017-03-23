@@ -18,7 +18,9 @@ try:
     client = tweepy.API(auth)
     if not client.verify_credentials():
         raise tweepy.TweepError
-    
+    USERNAME = "Sishaar"
+    USER = client.get_user(USERNAME)
+    ID = USER.id_str
 except tweepy.TweepError as e:
     print('ERROR : connection failed. Check your OAuth keys.')
 else:
@@ -29,7 +31,8 @@ else:
 #override tweepy.StreamListener to add logic to on_status
 class MyStreamListener(tweepy.StreamListener):
     def on_status(self, status):
-        client.update_status(message + "\n" + status.text)
+        client.update_status(message, status.id_str)
+        print(status)
 
     def on_error(self, status_code):
         if status_code == 420:
@@ -40,8 +43,9 @@ myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth = client.auth, listener=myStreamListener)
 
 followAcc = []
-followAcc.append(str((client.get_user("Sishaar")).id))
+followAcc.append((client.get_user("Sishaar")).id_str)
 print(followAcc)
+
 
 myStream.filter(follow=followAcc, async=True)
 #myStream.userstream(async=True)
