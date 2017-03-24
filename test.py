@@ -4,7 +4,7 @@
 import tweepy, time, sys
 from secret import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET
 
-
+USERNAME = "Sishaar"
 filename=open("message.txt",'r')
 message = ""
 for line in filename.readlines():
@@ -18,7 +18,7 @@ try:
     client = tweepy.API(auth)
     if not client.verify_credentials():
         raise tweepy.TweepError
-    USERNAME = "Sishaar"
+
     USER = client.get_user(USERNAME)
     ID = USER.id_str
 except tweepy.TweepError as e:
@@ -31,9 +31,9 @@ else:
 #override tweepy.StreamListener to add logic to on_status
 class MyStreamListener(tweepy.StreamListener):
     def on_status(self, status):
-        client.update_status(message, status.id_str)
-        print(status)
-
+        print(status.text)
+        if not "@"+USERNAME in status.text:
+            client.update_status("@" + (USERNAME) + " "  + message, status.id_str)
     def on_error(self, status_code):
         if status_code == 420:
             #returning False in on_data disconnects the stream
@@ -43,9 +43,8 @@ myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth = client.auth, listener=myStreamListener)
 
 followAcc = []
-followAcc.append((client.get_user("Sishaar")).id_str)
+followAcc.append(ID)
 print(followAcc)
-
 
 myStream.filter(follow=followAcc, async=True)
 #myStream.userstream(async=True)
