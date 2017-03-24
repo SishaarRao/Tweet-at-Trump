@@ -50,10 +50,3 @@ myStream.filter(follow=followAcc, async=True)
 #myStream.userstream(async=True)
 
 
-# For updating a status based on a textfile
-    
-#filename=open(argfile,'r')
-#f=filename.readlines()
-#filename.close()
-#for line in f:
-#    api.update_status(line)
