@@ -46,7 +46,7 @@ followAcc = []
 followAcc.append(ID)
 print(followAcc)
 
-myStream.filter(follow=followAcc, async=True)
+myStream.filter(follow=followAcc)
 #myStream.userstream(async=True)
 
 
