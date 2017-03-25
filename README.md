@@ -14,7 +14,7 @@ You will need the [Git CLI](https://git-scm.com/downloads) and the [Heroku CLI](
 
 This project is written in [Python 3.6.0](https://www.python.org/downloads/)
 
-### Installing
+### Installation
 
 A step by step series of what to do to get Tweet@Trump running.
 
@@ -60,25 +60,14 @@ USERNAME = "realDonaldTrump"
 ...
 ```
 
-## Running the tests
+## Running a Test
 
-Explain how to run the automated tests for this system
+You can run *main.py* on your local machine.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+``` Shell 
+python3 main.py
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Note: Your account will only automatically tweet while the program is running, so set the @ account to your friend's, tell him to tweet while it's running, and see if the program tweets in response.
 
 ## Deployment
 
