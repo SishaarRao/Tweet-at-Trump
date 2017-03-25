@@ -16,18 +16,27 @@ This project is written in [Python 3.6.0](https://www.python.org/downloads/)
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+A step by step series of what to do to get Tweet@Trump running.
 
-Say what the step will be
+Clone the repository
 
+``` Shell
+git clone https://github.com/SishaarRao/Tweet-at-Trump.git
 ```
-Give the example
-```
 
-And repeat
+Go in and edit secret.py with your Consumer & Access keys
 
-```
-until finished
+``` Python
+# Go to http://dev.twitter.com and create an app.
+# The consumer key and secret will be generated for you after
+CONSUMER_KEY = 'INSERT YOUR CONSUMER KEY HERE'
+CONSUMER_SECRET = 'INSERT YOUR SECRET CONSUMER KEY HERE'
+
+# After the step above, you will be redirected to your app's page.
+# Create an access token under the the "Your access token" section
+ACCESS_KEY = 'INSERT YOUR ACCESS KEY HERE'
+ACCESS_SECRET = 'INSERT YOUR SECRET ACCESS KEY HERE'
+
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
