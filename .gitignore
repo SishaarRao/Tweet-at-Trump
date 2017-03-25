@@ -7,6 +7,9 @@
 # Ignore my secret file
 /sishaarSecret.py
 
+# Ignore stuff for README
+/*.gif
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
