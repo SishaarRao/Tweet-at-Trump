@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need the Git CLI and the Heroku CLI installed on your machine. Refer to [Git](https://git-scm.com/downloads) and [Heroku](https://devcenter.heroku.com/articles/heroku-cli)
+You will need the [Git CLI](https://git-scm.com/downloads) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed on your machine. 
 
 This project is written in [Python 3.6.0](https://www.python.org/downloads/)
 
