@@ -2,7 +2,10 @@
 /gitbash.sh*
 
 # Ignore temp Emacs files
-/.#*
+/.#
+
+# Ignore my secret file
+/sishaarSecret.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
