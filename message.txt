@@ -1,1 +1,1 @@
-This is a automated sample message response
+This is my message that I want to reply with. Don't include the @ in the beginning. Make sure it's less than 150 characters!
