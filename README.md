@@ -24,7 +24,7 @@ Clone the repository
 git clone https://github.com/SishaarRao/Tweet-at-Trump.git
 ```
 
-Go in and edit secret.py with your Consumer & Access keys
+Go in and edit *secret.py* with your Consumer & Access keys
 
 ``` Python
 # Go to http://dev.twitter.com and create an app.
@@ -39,7 +39,12 @@ ACCESS_SECRET = 'INSERT YOUR SECRET ACCESS KEY HERE'
 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Go in and edit *message.txt* with the message you'd like to tweet
+
+```
+This is my message that I want to reply with. Don't include the @ in the beginning. Make sure it's less than 150 characters!
+
+```
 
 ## Running the tests
 
