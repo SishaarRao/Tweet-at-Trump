@@ -1,7 +1,7 @@
 # Tweet@Trump
 
 # Inline-style: 
-![alt text](https://drive.google.com/open?id=0B1mmZBsBQ3rnc094aGJoVE5YbFE "Logo Title Text 1")
+![alt text](http://i.imgur.com/pgoj0JF.gif "Logo Title Text 1")
 
 Let's be honest here. President Trump's tweeting habits aren't the best. It seems like he says lots of crazy things on impetus. Well what if I want to tweet right back at him? Welcome to Tweet@Trump.
 
