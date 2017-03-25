@@ -46,6 +46,20 @@ This is my message that I want to reply with. Don't include the @ in the beginni
 
 ```
 
+Go in and edit *main.py* with the USERNAME you'd like to tweet @.
+
+``` Python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import tweepy, time, sys
+from secret import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET
+
+# User that you want to immediately respond to
+USERNAME = "realDonaldTrump"
+...
+```
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
