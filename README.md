@@ -140,7 +140,7 @@ Reading through logs, we can see the message ``` 2017-03-26T01:15:19.037822+00:0
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/SishaarRao/Tweet-at-Trump/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
@@ -148,7 +148,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/SishaarRao/Tweet-at-Trump/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
