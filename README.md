@@ -87,7 +87,7 @@ Run *setup.sh*
 $ bash setup.sh
 ```
 
-After a few seconds, run this command. If you see 'worker: crashed', refer to [Errors](#errors)
+After a few seconds, run this command. If you see 'worker: crashed', refer to [Errors](#errors). If not, then Tweet@Trump is up!
 
 ``` Shell
 $ heroku ps
