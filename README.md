@@ -23,7 +23,7 @@ A step by step series of what to do to get Tweet@Trump running.
 Clone the repository
 
 ``` Shell
-git clone https://github.com/SishaarRao/Tweet-at-Trump.git
+$ git clone https://github.com/SishaarRao/Tweet-at-Trump.git
 ```
 
 Go in and edit *secret.py* with your Consumer & Access keys
@@ -38,14 +38,12 @@ CONSUMER_SECRET = 'INSERT YOUR SECRET CONSUMER KEY HERE'
 # Create an access token under the the "Your access token" section
 ACCESS_KEY = 'INSERT YOUR ACCESS KEY HERE'
 ACCESS_SECRET = 'INSERT YOUR SECRET ACCESS KEY HERE'
-
 ```
 
 Go in and edit *message.txt* with the message you'd like to tweet
 
 ```
 This is my message that I want to reply with. Don't include the @ in the beginning. Make sure it's less than 150 characters!
-
 ```
 
 Go in and edit *main.py* with the USERNAME you'd like to tweet @.
@@ -67,7 +65,7 @@ USERNAME = "realDonaldTrump"
 You can run *main.py* on your local machine.
 
 ``` Shell 
-python3 main.py
+$ python3 main.py
 ```
 Note: Your account will only automatically tweet while the program is running, so set the @ account to your friend's, tell them to tweet while it's running, and see if the program tweets in response.
 
@@ -78,15 +76,33 @@ Tweet@Trump will be deployed through Heroku so that you don't have to run it loc
 Make sure you have heroku and git on your system, and make sure to login to both.
 
 ``` Shell
-heroku --version
-git --version
-heroku login
+$ heroku --version
+$ git --version
+$ heroku login
 ```
 
 Run *setup.sh*
 
 ``` Shell
-bash setup.sh
+$ bash setup.sh
+```
+
+After a few seconds, run this command. If you see 'worker: crashed', refer to Errors part of README
+
+``` Shell
+$ heroku ps
+```
+
+If you decide that you want to turn off the autoreply, simply run *turnOff.sh*
+
+``` Shell
+$ bash turnOff.sh
+```
+
+If, after doing this you want to turn it back on, simply run *turnOn.sh*
+
+``` Shell
+$ bash turnOn.sh
 ```
 
 
