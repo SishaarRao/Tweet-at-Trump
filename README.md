@@ -73,7 +73,15 @@ Note: Your account will only automatically tweet while the program is running, s
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Tweet@Trump will be deployed through Heroku so that you don't have to run it locally on your system.
+
+Make sure you have heroku and git on your system, and make sure to login to both.
+
+``` Shell
+heroku --version
+git --version
+heroku login
+```
 
 ## Built With
 
