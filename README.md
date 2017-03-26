@@ -83,6 +83,13 @@ git --version
 heroku login
 ```
 
+Run *setup.sh*
+
+``` Shell
+bash setup.sh
+```
+
+
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
