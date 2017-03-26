@@ -87,7 +87,7 @@ Run *setup.sh*
 $ bash setup.sh
 ```
 
-After a few seconds, run this command. If you see 'worker: crashed', refer to Errors part of README
+After a few seconds, run this command. If you see 'worker: crashed', refer to [Errors](#errors) part of README
 
 ``` Shell
 $ heroku ps
@@ -104,6 +104,9 @@ If, after doing this you want to turn it back on, simply run *turnOn.sh*
 ``` Shell
 $ bash turnOn.sh
 ```
+
+## Errors
+
 
 
 ## Built With
