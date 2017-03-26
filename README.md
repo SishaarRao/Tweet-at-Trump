@@ -159,4 +159,4 @@ Thank you @realDonaldTrump for inspiring this project.
 [LICENSE]: ./LICENSE
 [license-badge]: https://img.shields.io/badge/license-MIT-brightgreen.svg
 [RELEASE]: https://github.com/SishaarRao/Tweet-at-Trump/releases/tag/v1.0.0
-[release-badge]: https://img.shields.io/badge/Version-1.0-brightgreen.svg
+[release-badge]: https://img.shields.io/badge/Version-1.0.0-brightgreen.svg
