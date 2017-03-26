@@ -12,7 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need the [Git CLI](https://git-scm.com/downloads) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed on your machine. 
 
-This project is written in [Python 3.6.0](https://www.python.org/downloads/)
+You will need to create an application in [Twitter Apps](https://apps.twitter.com)
+
+This project is written in [Python 3.6.0](https://www.python.org/downloads/) so you're probably going to need that.
 
 ### Installation
 
@@ -67,7 +69,7 @@ You can run *main.py* on your local machine.
 ``` Shell 
 python3 main.py
 ```
-Note: Your account will only automatically tweet while the program is running, so set the @ account to your friend's, tell him to tweet while it's running, and see if the program tweets in response.
+Note: Your account will only automatically tweet while the program is running, so set the @ account to your friend's, tell them to tweet while it's running, and see if the program tweets in response.
 
 ## Deployment
 
@@ -81,7 +83,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/SishaarRao/Tweet-at-Trump/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
