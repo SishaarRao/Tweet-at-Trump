@@ -107,7 +107,30 @@ $ bash turnOn.sh
 
 ## Errors
 
+If you run ``` $ heroku ps ``` and see something along these lines:
 
+``` Shell
+=== worker (Free): python main.py (1)
+worker.1: crashed 2017/03/25 21:15:25 -0400 (~ 11s ago)
+```
+
+Run ``` $ heroku logs ``` and read for errors, which will look something like this:
+
+``` Shell
+2017-03-26T01:15:16.554159+00:00 heroku[worker.1]: Starting process with command `python main.py`
+2017-03-26T01:15:17.880765+00:00 heroku[worker.1]: State changed from starting to up
+2017-03-26T01:15:19.154593+00:00 heroku[worker.1]: Process exited with status 0
+2017-03-26T01:15:19.037822+00:00 app[worker.1]: ERROR : connection failed. Check your OAuth keys.
+2017-03-26T01:15:19.168674+00:00 heroku[worker.1]: State changed from up to crashed
+2017-03-26T01:15:19.168674+00:00 heroku[worker.1]: State changed from crashed to starting
+2017-03-26T01:15:22.902282+00:00 heroku[worker.1]: Starting process with command `python main.py`
+2017-03-26T01:15:23.465315+00:00 heroku[worker.1]: State changed from starting to up
+2017-03-26T01:15:24.988934+00:00 heroku[worker.1]: Process exited with status 0
+2017-03-26T01:15:24.887512+00:00 app[worker.1]: ERROR : connection failed. Check your OAuth keys.
+2017-03-26T01:15:25.001256+00:00 heroku[worker.1]: State changed from up to crashed
+```
+
+Reading through logs, we can see the message ``` 2017-03-26T01:15:19.037822+00:00 app[worker.1]: ERROR : connection failed. Check your OAuth keys. ``` which means you need to confirm your OAuth keys are correct. 
 
 ## Built With
 
