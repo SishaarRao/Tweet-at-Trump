@@ -87,7 +87,7 @@ Run *setup.sh*
 $ bash setup.sh
 ```
 
-After a few seconds, run this command. If you see 'worker: crashed', refer to [Errors](#errors) part of README
+After a few seconds, run this command. If you see 'worker: crashed', refer to [Errors](#errors)
 
 ``` Shell
 $ heroku ps
