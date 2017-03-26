@@ -134,23 +134,17 @@ Reading through logs, we can see the message ``` 2017-03-26T01:15:19.037822+00:0
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Tweepy](http://www.tweepy.org) - Python library for Twitter API
+* [Heroku](https://www.heroku.com/) - Deployment of Tweet@Trump
+* [Emacs!!](https://www.gnu.org/software/emacs/) - Native Development
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/SishaarRao/Tweet-at-Trump/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Sishaar Rao** - *Version 1* - [SishaarRao](https://github.com/SishaarRao)
 
 ## License
 
@@ -158,7 +152,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+Thank you @realDonaldTrump for inspiring this project.
 
