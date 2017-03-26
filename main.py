@@ -27,6 +27,7 @@ try:
     ID = USER.id_str
 except tweepy.TweepError as e:
     print('ERROR : connection failed. Check your OAuth keys.')
+    sys.exit(0)
 else:
     print('Connected as @{}, you can start to tweet !'.format(client.me().screen_name))
     client_id = client.me().id
