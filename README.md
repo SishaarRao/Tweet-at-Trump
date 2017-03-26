@@ -6,7 +6,7 @@ This application, simply put, allows you to respond to President Trump's tweets 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
