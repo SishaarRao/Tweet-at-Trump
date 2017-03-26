@@ -1,5 +1,6 @@
 # ![alt text](http://i.imgur.com/pgoj0JF.gif "Tweet@Trump")
-[![license][license-badge]][LICENSE]
+[![release][release-badge]][RELEASE] [![license][license-badge]][LICENSE]
+
 
 Let's be honest here. President Trump's tweeting habits aren't the best. It seems like he says lots of crazy things on impetus. Well what if I want to tweet right back at him? That's where Tweet@Trump comes in.
 
@@ -156,4 +157,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 Thank you @realDonaldTrump for inspiring this project.
 
 [LICENSE]: ./LICENSE
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[RELEASE]: https://github.com/SishaarRao/Tweet-at-Trump/releases/tag/v1.0.0
+[release-badge]: https://img.shields.io/badge/Version-1.0-brightgreen.svg
