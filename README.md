@@ -1,4 +1,5 @@
 # ![alt text](http://i.imgur.com/pgoj0JF.gif "Tweet@Trump")
+[![Version badge][]][version]
 
 Let's be honest here. President Trump's tweeting habits aren't the best. It seems like he says lots of crazy things on impetus. Well what if I want to tweet right back at him? That's where Tweet@Trump comes in.
 
